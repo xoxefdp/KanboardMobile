@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget defaultlocale="en-US" id="io.cordova.myappd36506" version="1.0.0" windows-packageVersion="1.1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps">
+    <splash height="300" src="res/screens/windows/SplashScreen.png" width="620" />
+    <name>Kanboard Mobile</name>
+    <description>A mobile app for the Kanboard System.</description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">Harry Conor Lucas</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <vs:features />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon src="res/icons/logo.png" />
+    <vs:platformSpecificValues>
+        <vs:platformSpecificWidget platformName="windows">
+        </vs:platformSpecificWidget>
+    </vs:platformSpecificValues>
+    <preference name="SplashScreen" value="screen" />
+    <preference name="windows-target-version" value="8.1" />
+    <preference name="WindowsStoreIdentityName" value="11539HarryCLucas.sigupa" />
+    <preference name="WindowsStorePublisherName" value="HarryCLucas" />
+    <preference name="WindowsStoreDisplayName" value="Kanboard Mobile" />
+</widget>

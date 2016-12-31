@@ -1,0 +1,12 @@
+﻿
+<div style="font-size: 250%; height: 150%; background-color: white; border-bottom: 1px solid black;">
+    <div >
+        <img src="images/Kanboard.png" width="52" height="38" style="overflow:hidden; display: block;margin: 20px auto;" align="middle" />
+    </div>
+</div>
+<div style="padding: 5px">
+    <div ng-repeat="project in projects" class="card card-block">
+        <h3 class="card-title">{{project.name}}</h3>
+        <button class="form-control btn btn-primary" ng-click="openProject(project)">Open Board</button>
+    </div>
+</div>

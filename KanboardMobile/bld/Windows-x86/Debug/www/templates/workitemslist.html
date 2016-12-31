@@ -1,0 +1,11 @@
+﻿<div style="height: 65px; background-color: white; border-bottom: 1px solid black;" class="navbar navbar-default navbar-fixed-top">
+    <button type="button" class="btn btn-success" style="position: absolute; margin-left: 5px; margin-top: 5px;" ng-click="createTask()">Add task</button>
+</div>
+
+<div style="padding: 5px; margin-top: 65px;" id="table">
+    <div ng-repeat="workitem in workitems" class="card card-block" ng-style="{'background-color': workitem.color}"  >
+        <h3 class="card-title">{{workitem.title}}</h3>
+        <div class="card-text">{{workitem.description}}</div>     
+        <div style="margin-top: 10px;"><button class="form-control btn btn-primary" ng-click="openWorkItem(workitem)">Open Task</button></divstyle="margin-top:>
+    </div>
+</div>
