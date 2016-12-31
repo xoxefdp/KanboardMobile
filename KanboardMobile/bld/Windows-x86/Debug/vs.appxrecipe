@@ -28,7 +28,7 @@
     <AppXManifest Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\build\windows\debug\x86\win8.1\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-31T04:55:22.577</Modified>
+      <Modified>2016-12-31T05:33:03.756</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -77,287 +77,295 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\images\Kanboard.png">
       <PackagePath>www\images\Kanboard.png</PackagePath>
-      <Modified>2016-12-31T04:55:19.431</Modified>
+      <Modified>2016-12-31T05:33:00.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\cordova-js-src\exec.js">
       <PackagePath>www\cordova-js-src\exec.js</PackagePath>
-      <Modified>2016-12-31T04:55:20.958</Modified>
+      <Modified>2016-12-31T05:33:01.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\cordova-js-src\platform.js">
       <PackagePath>www\cordova-js-src\platform.js</PackagePath>
-      <Modified>2016-12-31T04:55:20.961</Modified>
+      <Modified>2016-12-31T05:33:01.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
-      <Modified>2016-12-31T04:55:19.837</Modified>
+      <Modified>2016-12-31T05:33:00.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
-      <Modified>2016-12-31T04:55:20.962</Modified>
+      <Modified>2016-12-31T05:33:01.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-background-mode\www\background-mode.js">
       <PackagePath>www\plugins\cordova-plugin-background-mode\www\background-mode.js</PackagePath>
-      <Modified>2016-12-31T04:55:20.995</Modified>
+      <Modified>2016-12-31T05:33:01.893</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
       <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
-      <Modified>2016-12-31T04:55:20.996</Modified>
+      <Modified>2016-12-31T05:33:01.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
       <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.015</Modified>
+      <Modified>2016-12-31T05:33:01.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js</PackagePath>
+      <Modified>2016-12-31T05:33:01.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-dialogs\www\notification.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\www\notification.js</PackagePath>
+      <Modified>2016-12-31T05:33:01.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\src\windows\FileProxy.js">
       <PackagePath>www\plugins\cordova-plugin-file\src\windows\FileProxy.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.081</Modified>
+      <Modified>2016-12-31T05:33:01.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\browser\isChrome.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\browser\isChrome.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.083</Modified>
+      <Modified>2016-12-31T05:33:01.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\DirectoryEntry.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\DirectoryEntry.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.084</Modified>
+      <Modified>2016-12-31T05:33:01.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\DirectoryReader.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\DirectoryReader.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.085</Modified>
+      <Modified>2016-12-31T05:33:01.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\Entry.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\Entry.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.131</Modified>
+      <Modified>2016-12-31T05:33:02.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\File.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\File.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.132</Modified>
+      <Modified>2016-12-31T05:33:02.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\FileEntry.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\FileEntry.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.133</Modified>
+      <Modified>2016-12-31T05:33:02.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\FileError.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\FileError.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.145</Modified>
+      <Modified>2016-12-31T05:33:02.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\FileReader.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\FileReader.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.191</Modified>
+      <Modified>2016-12-31T05:33:02.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\FileSystem.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\FileSystem.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.205</Modified>
+      <Modified>2016-12-31T05:33:02.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\fileSystemPaths.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\fileSystemPaths.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.207</Modified>
+      <Modified>2016-12-31T05:33:02.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\fileSystems.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\fileSystems.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.209</Modified>
+      <Modified>2016-12-31T05:33:02.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\FileUploadOptions.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\FileUploadOptions.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.210</Modified>
+      <Modified>2016-12-31T05:33:02.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\FileUploadResult.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\FileUploadResult.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.221</Modified>
+      <Modified>2016-12-31T05:33:02.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\FileWriter.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\FileWriter.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.257</Modified>
+      <Modified>2016-12-31T05:33:02.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\Flags.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\Flags.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.259</Modified>
+      <Modified>2016-12-31T05:33:02.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\LocalFileSystem.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\LocalFileSystem.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.260</Modified>
+      <Modified>2016-12-31T05:33:02.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\Metadata.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\Metadata.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.261</Modified>
+      <Modified>2016-12-31T05:33:02.172</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\ProgressEvent.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\ProgressEvent.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.273</Modified>
+      <Modified>2016-12-31T05:33:02.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\requestFileSystem.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\requestFileSystem.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.275</Modified>
+      <Modified>2016-12-31T05:33:02.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-file\www\resolveLocalFileSystemURI.js">
       <PackagePath>www\plugins\cordova-plugin-file\www\resolveLocalFileSystemURI.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.275</Modified>
+      <Modified>2016-12-31T05:33:02.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-secure-storage\src\windows\SecureStorage.js">
       <PackagePath>www\plugins\cordova-plugin-secure-storage\src\windows\SecureStorage.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.288</Modified>
+      <Modified>2016-12-31T05:33:02.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-secure-storage\www\securestorage.js">
       <PackagePath>www\plugins\cordova-plugin-secure-storage\www\securestorage.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.336</Modified>
+      <Modified>2016-12-31T05:33:02.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\plugins\cordova-plugin-secure-storage\www\sjcl_ss.js">
       <PackagePath>www\plugins\cordova-plugin-secure-storage\www\sjcl_ss.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.383</Modified>
+      <Modified>2016-12-31T05:33:02.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\angular-route.js">
       <PackagePath>www\scripts\angular-route.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.416</Modified>
+      <Modified>2016-12-31T05:33:02.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\angular.js">
       <PackagePath>www\scripts\angular.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.691</Modified>
+      <Modified>2016-12-31T05:33:02.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\app\controllers\createWorkItemController.js">
       <PackagePath>www\scripts\app\controllers\createWorkItemController.js</PackagePath>
-      <Modified>2016-12-31T04:55:19.538</Modified>
+      <Modified>2016-12-31T05:33:00.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\app\controllers\loginController.js">
       <PackagePath>www\scripts\app\controllers\loginController.js</PackagePath>
-      <Modified>2016-12-31T04:55:19.540</Modified>
+      <Modified>2016-12-31T05:33:00.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\app\controllers\mainScreenController.js">
       <PackagePath>www\scripts\app\controllers\mainScreenController.js</PackagePath>
-      <Modified>2016-12-31T04:55:19.543</Modified>
+      <Modified>2016-12-31T05:33:00.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\app\controllers\routeConfig.js">
       <PackagePath>www\scripts\app\controllers\routeConfig.js</PackagePath>
-      <Modified>2016-12-31T04:55:19.545</Modified>
+      <Modified>2016-12-31T05:33:00.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\app\controllers\workItemDetailController.js">
       <PackagePath>www\scripts\app\controllers\workItemDetailController.js</PackagePath>
-      <Modified>2016-12-31T04:55:19.547</Modified>
+      <Modified>2016-12-31T05:33:00.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\app\controllers\workItemListController.js">
       <PackagePath>www\scripts\app\controllers\workItemListController.js</PackagePath>
-      <Modified>2016-12-31T04:55:19.549</Modified>
+      <Modified>2016-12-31T05:33:00.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\app\index.js">
       <PackagePath>www\scripts\app\index.js</PackagePath>
-      <Modified>2016-12-31T04:55:19.550</Modified>
+      <Modified>2016-12-31T05:33:00.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\app\services\AuthenticationService.js">
       <PackagePath>www\scripts\app\services\AuthenticationService.js</PackagePath>
-      <Modified>2016-12-31T04:55:19.553</Modified>
+      <Modified>2016-12-31T05:33:00.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\app\services\ProjectService.js">
       <PackagePath>www\scripts\app\services\ProjectService.js</PackagePath>
-      <Modified>2016-12-31T04:55:19.555</Modified>
+      <Modified>2016-12-31T05:33:00.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\app\services\WorkItemService.js">
       <PackagePath>www\scripts\app\services\WorkItemService.js</PackagePath>
-      <Modified>2016-12-31T04:55:19.557</Modified>
+      <Modified>2016-12-31T05:33:00.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\bootstrap.js">
       <PackagePath>www\scripts\bootstrap.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.752</Modified>
+      <Modified>2016-12-31T05:33:02.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\datetimepicker.js">
       <PackagePath>www\scripts\datetimepicker.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.778</Modified>
+      <Modified>2016-12-31T05:33:02.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\datetimepicker.templates.js">
       <PackagePath>www\scripts\datetimepicker.templates.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.779</Modified>
+      <Modified>2016-12-31T05:33:02.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\jquery-2.2.3.min.js">
       <PackagePath>www\scripts\jquery-2.2.3.min.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.869</Modified>
+      <Modified>2016-12-31T05:33:02.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\moment.js">
       <PackagePath>www\scripts\moment.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.945</Modified>
+      <Modified>2016-12-31T05:33:03.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\ngStorage.js">
       <PackagePath>www\scripts\ngStorage.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.982</Modified>
+      <Modified>2016-12-31T05:33:03.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\npm.js">
       <PackagePath>www\scripts\npm.js</PackagePath>
-      <Modified>2016-12-31T04:55:21.984</Modified>
+      <Modified>2016-12-31T05:33:03.056</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\platformOverrides.js">
       <PackagePath>www\scripts\platformOverrides.js</PackagePath>
-      <Modified>2016-12-31T04:55:20.436</Modified>
+      <Modified>2016-12-31T05:33:01.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\scripts\winstore-jscompat.js">
       <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
-      <Modified>2016-12-31T04:55:20.438</Modified>
+      <Modified>2016-12-31T05:33:01.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\WinJS\js\base.js">
       <PackagePath>www\WinJS\js\base.js</PackagePath>
-      <Modified>2016-12-31T04:55:20.424</Modified>
+      <Modified>2016-12-31T05:33:01.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\css\bootstrap.css">
       <PackagePath>www\css\bootstrap.css</PackagePath>
-      <Modified>2016-12-31T04:55:20.973</Modified>
+      <Modified>2016-12-31T05:33:01.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\css\bootstrap.min.css">
       <PackagePath>www\css\bootstrap.min.css</PackagePath>
-      <Modified>2016-12-31T04:55:20.982</Modified>
+      <Modified>2016-12-31T05:33:01.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\css\datetimepicker.css">
       <PackagePath>www\css\datetimepicker.css</PackagePath>
-      <Modified>2016-12-31T04:55:20.984</Modified>
+      <Modified>2016-12-31T05:33:01.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
-      <Modified>2016-12-31T04:55:20.992</Modified>
+      <Modified>2016-12-31T05:33:01.889</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\fonts\glyphicons-halflings-regular.eot">
       <PackagePath>www\fonts\glyphicons-halflings-regular.eot</PackagePath>
-      <Modified>2016-12-31T04:55:19.403</Modified>
+      <Modified>2016-12-31T05:33:00.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\fonts\glyphicons-halflings-regular.svg">
       <PackagePath>www\fonts\glyphicons-halflings-regular.svg</PackagePath>
-      <Modified>2016-12-31T04:55:19.410</Modified>
+      <Modified>2016-12-31T05:33:00.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\fonts\glyphicons-halflings-regular.ttf">
       <PackagePath>www\fonts\glyphicons-halflings-regular.ttf</PackagePath>
-      <Modified>2016-12-31T04:55:19.417</Modified>
+      <Modified>2016-12-31T05:33:00.276</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\fonts\glyphicons-halflings-regular.woff">
       <PackagePath>www\fonts\glyphicons-halflings-regular.woff</PackagePath>
-      <Modified>2016-12-31T04:55:19.423</Modified>
+      <Modified>2016-12-31T05:33:00.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\fonts\glyphicons-halflings-regular.woff2">
       <PackagePath>www\fonts\glyphicons-halflings-regular.woff2</PackagePath>
-      <Modified>2016-12-31T04:55:19.428</Modified>
+      <Modified>2016-12-31T05:33:00.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2016-12-31T04:55:20.994</Modified>
+      <Modified>2016-12-31T05:33:01.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\templates\createworkitem.html">
       <PackagePath>www\templates\createworkitem.html</PackagePath>
-      <Modified>2016-12-31T04:55:19.755</Modified>
+      <Modified>2016-12-31T05:33:00.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\templates\login.html">
       <PackagePath>www\templates\login.html</PackagePath>
-      <Modified>2016-12-31T04:55:19.758</Modified>
+      <Modified>2016-12-31T05:33:00.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\templates\mainscreen.html">
       <PackagePath>www\templates\mainscreen.html</PackagePath>
-      <Modified>2016-12-31T04:55:19.760</Modified>
+      <Modified>2016-12-31T05:33:00.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\templates\workitemdetail.html">
       <PackagePath>www\templates\workitemdetail.html</PackagePath>
-      <Modified>2016-12-31T04:55:19.762</Modified>
+      <Modified>2016-12-31T05:33:00.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\www\templates\workitemslist.html">
       <PackagePath>www\templates\workitemslist.html</PackagePath>
-      <Modified>2016-12-31T04:55:19.773</Modified>
+      <Modified>2016-12-31T05:33:00.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
-      <Modified>2016-12-31T04:55:19.316</Modified>
+      <Modified>2016-12-31T05:33:00.161</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Harry Lucas\Source\Repos\KanboardMobile\KanboardMobile\platforms\windows\build\windows\debug\x86\win8.1\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-12-31T04:55:22.427</Modified>
+      <Modified>2016-12-31T05:33:03.598</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

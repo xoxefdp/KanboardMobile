@@ -3,7 +3,6 @@
 
       ProjectService.getMyProjects().then(function (response) {
           $scope.projects = response;
-          $scope.$apply();
       });
 
       $scope.openProject = function (project) {

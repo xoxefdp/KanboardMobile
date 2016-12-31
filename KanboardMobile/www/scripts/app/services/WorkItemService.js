@@ -173,6 +173,13 @@
                 headers: {
                     'Content-Type': 'application/json'
                 }
+            }).then(function (response) {
+                // Success
+                resolve(response.data.result);
+            }, function (response) {
+                // Failure
+                console.log('Unable to create Task');
+                reject(null);
             });
         });
     }

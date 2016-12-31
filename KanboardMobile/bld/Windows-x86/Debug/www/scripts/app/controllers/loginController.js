@@ -17,9 +17,8 @@
               if ($scope.remember_me)
                 storeCredentials();
               $location.path('/mainscreen');
-              $scope.$apply();
           }, function (error) {
-              alert('Username or Password is incorrect');
+              navigator.notification.alert('Username or Password is incorrect', null);
           });
       };
 
@@ -27,17 +26,14 @@
           secure_storage.get(function (value) {
               $scope.username = value;
               $scope.remember_me = true;
-              $scope.$apply();
           }, function (error) { $scope.username = ""; }, 'username');
           secure_storage.get(function (value) {
               $scope.password = value;
               $scope.remember_me = true;
-              $scope.$apply();
           }, function (error) { $scope.password = ""; }, 'password');
           secure_storage.get(function (value) {
               $scope.server = value;
               $scope.remember_me = true;
-              $scope.$apply();
           }, function (error) { $scope.server = ""; }, 'server');
       }
 

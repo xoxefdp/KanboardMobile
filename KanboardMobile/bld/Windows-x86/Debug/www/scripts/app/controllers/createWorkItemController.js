@@ -5,12 +5,10 @@
       ProjectService.getCurrentProjectBoard().then(function (response) {
           $scope.board_details = response;
           initialise();
-          $scope.$apply();
       });
 
       ProjectService.getCurrentProjectUsers().then(function (response) {
           $scope.userList = response;
-          $scope.$apply();
       });
 
       $scope.submitChanges = function () {
@@ -18,7 +16,7 @@
               && $scope.newItem.duedate != null && $scope.newItem.description != ''
               && $scope.newItem.duedate != '') {
               WorkItemService.createWorkItem($scope.newItem.title, $scope.newItem.owner_id, $scope.newItem.description, $scope.newItem.date_due, $scope.newItem.column_id, $scope.newItem.swimlane_id).then(function (response) {
-                  $scope.$apply();
+                  $location.path('/workitemlist');
               });
           }
       }

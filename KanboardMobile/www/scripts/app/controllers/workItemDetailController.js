@@ -8,13 +8,13 @@
 
       WorkItemService.getComments().then(function (response) {
           $scope.commentList = response;
-          $scope.$apply();
       });
 
       $scope.closeTask = function () {
-          if (confirm('Are you sure you want to close this task?'))
-              closeTask();
+          navigator.notification.confirm('Are you sure you want to close this task?', closeTask, 'Close this task?', ['Yes', 'No']);
       }
+
+
 
       $scope.submitChanges = function () {
           WorkItemService.updateWorkItem($scope.newItem.title, $scope.newItem.description);
@@ -39,10 +39,11 @@
           });
       }
 
-      function closeTask() {
+      function closeTask(returnValue) {
+          if (returnValue !== 1)
+              return;
           WorkItemService.closeWorkItem().then(function (response) {
               $location.path('/workitemlist');
-              $scope.$apply();
           });
       }
 
@@ -60,7 +61,6 @@
                   description: response.description
               };
               getSwimlaneName(response.swimlane_id);
-              $scope.$apply();
           });
       }
 

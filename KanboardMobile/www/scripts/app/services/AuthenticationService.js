@@ -30,7 +30,7 @@
                     "id": 887036325
                 },
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json; charset=utf-8'
                 }
             })
             .then(function (response) {
@@ -49,7 +49,7 @@
                 method: 'POST',
                 url: _getBaseURL() + '/jsonrpc.php',
                 data: { "jsonrpc": "2.0", "method": "getMe", "id": 1 },
-                headers: { 'Content-Type': 'application/json' }
+                headers: { 'Content-Type': 'application/json; charset=utf-8' }
             }).then(function (response) {
                 //Success
                 resolve(response.data.result);

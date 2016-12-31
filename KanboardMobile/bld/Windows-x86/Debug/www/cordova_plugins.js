@@ -211,6 +211,22 @@ module.exports = [
         "id": "cordova-plugin-secure-storage.SecureStorageWindowsImpl",
         "pluginId": "cordova-plugin-secure-storage",
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-dialogs/www/notification.js",
+        "id": "cordova-plugin-dialogs.notification",
+        "pluginId": "cordova-plugin-dialogs",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-dialogs/src/windows/NotificationProxy.js",
+        "id": "cordova-plugin-dialogs.NotificationProxy",
+        "pluginId": "cordova-plugin-dialogs",
+        "merges": [
+            ""
+        ]
     }
 ];
 module.exports.metadata = 
@@ -221,7 +237,8 @@ module.exports.metadata =
     "cordova-plugin-background-mode": "0.6.5",
     "cordova-plugin-file": "4.1.1",
     "cordova-plugin-secure-storage": "2.6.0",
-    "cordova-plugin-whitelist": "1.2.2"
+    "cordova-plugin-whitelist": "1.2.2",
+    "cordova-plugin-dialogs": "1.2.1"
 };
 // BOTTOM OF METADATA
 });

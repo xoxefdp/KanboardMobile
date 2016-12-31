@@ -3,7 +3,6 @@
 
       ProjectService.getAllTasksInCurrentProject().then(function (response) {
           $scope.workitems = response;
-          $scope.$apply();
       });
 
     $scope.openWorkItem = function (item) {
