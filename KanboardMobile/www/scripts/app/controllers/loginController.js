@@ -1,5 +1,4 @@
-﻿app
-  .controller('loginCtrl', ['$scope', 'AuthenticationService', '$location', function ($scope, AuthenticationService, $location) {
+    app.controller('loginCtrl', ['$scope', 'AuthenticationService', '$location', function ($scope, AuthenticationService, $location) {
       var secure_storage = new cordova.plugins.SecureStorage(
           function () { console.log('Success') },
           function (error) { console.log('Error ' + error); },
