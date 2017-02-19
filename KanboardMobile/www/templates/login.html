@@ -6,7 +6,7 @@
             <div id="frm_login"><span class="maxwidth input-group"><input id="username" placeholder="Username" class="maxwidth form-control" ng-model="username" /></span></div>
             <div id="frm_login"><span class="maxwidth input-group"><input id="vPassword" placeholder="Password" class="maxwidth form-control" type="password" ng-model="password" /></span></div>
             <input type="checkbox" name="remember_me" ng-model="remember_me" id="remember_me" class="custom check" />
-            <label for="remember_me" class="check-label" id="lbl_rem_me">Remember Me</label>
+            <label for="remember_me" ng-click="remember_me_clicked()" class="check-label" id="lbl_rem_me">Remember Me</label>
             <br />
             <div id="frm_login"><span class="maxwidth input-group"><button type="button" class="maxwidth btn btn-primary" ng-click="login()">Login</button></span></div>
         </form>

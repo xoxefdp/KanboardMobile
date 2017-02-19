@@ -1,13 +1,18 @@
     app.controller('loginCtrl', ['$scope', 'AuthenticationService', '$location', function ($scope, AuthenticationService, $location) {
-      var secure_storage = new cordova.plugins.SecureStorage(
+        $scope.remember_me_disabled = false;
+        var secure_storage = new cordova.plugins.SecureStorage(
           function () { console.log('Success') },
-          function (error) { console.log('Error ' + error); },
+          function (error) {
+              console.log('Error ' + error);
+              $scope.remember_me_disabled = true;
+          },
           'kanboard_app');
 
       $scope.init = function () {
           $scope.username = "";
           $scope.password = "";
           $scope.server = "";
+          $scope.remember_me = false;
           recallCredentials();
       }
 
@@ -21,18 +26,27 @@
           });
       };
 
+      $scope.remember_me_clicked = function () {
+          if ($scope.remember_me_disabled = true) {
+              alert('Secure Remember Me functionality requires that you have a lock screen. Please enable the lock screen and try again.');
+          }
+      }
+
       function recallCredentials() {
           secure_storage.get(function (value) {
               $scope.username = value;
               $scope.remember_me = true;
+              $scope.$applyAsync();
           }, function (error) { $scope.username = ""; }, 'username');
           secure_storage.get(function (value) {
               $scope.password = value;
               $scope.remember_me = true;
+              $scope.$applyAsync();
           }, function (error) { $scope.password = ""; }, 'password');
           secure_storage.get(function (value) {
               $scope.server = value;
               $scope.remember_me = true;
+              $scope.$applyAsync();
           }, function (error) { $scope.server = ""; }, 'server');
       }
 
