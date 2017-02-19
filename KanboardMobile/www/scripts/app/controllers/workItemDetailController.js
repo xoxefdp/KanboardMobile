@@ -20,9 +20,7 @@
           WorkItemService.updateWorkItem($scope.newItem.title, $scope.newItem.description);
 
           WorkItemService.getCurrentWorkItem().then(function(response){
-              if (response.column_id != $scope.newItem.column_id) {
-                  WorkItemService.moveWorkItem(null, $scope.newItem.column_id, $scope.newItem.swimlane_id);
-              }
+              WorkItemService.moveWorkItem($scope.newItem.project_id, $scope.newItem.column_id, $scope.newItem.swimlane_id);
               $location.path('/workitemlist');
           });
       }
@@ -58,6 +56,7 @@
                   title: response.title,
                   column_id: response.column_id,
                   swimlane_id: response.swimlane_id,
+                  project_id: response.project_id,
                   description: response.description
               };
               getSwimlaneName(response.swimlane_id);

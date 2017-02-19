@@ -94,12 +94,6 @@
 
     function _moveWorkItem(to_project, to_column, to_swimlane) {
         return $q(function (resolve, reject) {
-            if (to_project == null)
-                to_project = getCurrentWorkItem().project_id;
-            if (to_column == null)
-                to_column = getCurrentWorkItem().column_id;
-            if (to_swimlane == null)
-                to_swimlane = getCurrentWorkItem().swimlane_id;
 
             $http({
                 method: 'POST',
@@ -124,6 +118,7 @@
                 resolve(response.data.result);
             }, function (response) {
                 // Failure
+                console.log(response);
                 reject(null);
             });
         });
