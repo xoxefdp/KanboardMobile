@@ -1,0 +1,1 @@
+{"plugins":["cordova-plugin-dialogs","cordova-plugin-device","cordova-plugin-secure-storage","cordova-plugin-winstore-jscompat","cordova-plugin-whitelist"]}
