@@ -5,4 +5,4 @@ I created this app as an effort to make the Kanboard Todo system useful to a new
 
 The app is built on Apache Cordova and should compile to iOS, Windows Phone and Android. The Remember Me functionality securely stores login details and the app communicates with a specified server through Kanboard's JSON RPC.
 
-As of writing, iOS is untested, but Windows Phone and Android are functional. The App is currently available on the Google Play store in Beta.
+As of writing, iOS is untested, but Windows Phone and Android are functional. The App is currently available on the Google Play store.
