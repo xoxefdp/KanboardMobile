@@ -5,7 +5,7 @@
     function _authenticate(user, pass, url) {
         return $q(function (resolve, reject) {
             $http.defaults.headers.common['Authorization'] = 'Basic ' + Base64.encode(user + ':' + pass);
-            base_url = url;
+            _setBaseURL(url);
 
             _getMyDetails().then(function (response) {
                 resolve(true);
@@ -17,6 +17,10 @@
 
     function _getBaseURL() {
         return base_url;
+    }
+
+    function _setBaseURL(url) {
+      base_url = url;
     }
 
     function _getAllUsers() {

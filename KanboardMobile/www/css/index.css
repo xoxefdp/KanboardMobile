@@ -12,9 +12,9 @@ body {
 }
 
 #frm_login {
-    padding-top: 5px; 
-    padding-left:20px; 
-    padding-right:20px; 
+    padding-top: 5px;
+    padding-left:20px;
+    padding-right:20px;
     width: 100%;
 }
 
@@ -22,9 +22,58 @@ body {
     width: 100%;
 }
 
+.box-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.ssl-input {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.domain-input {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 1 1 0;
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
 .app {
-    position: absolute;          
-    height: 100%;   
+    position: absolute;
+    height: 100%;
     width: 100%;
 }
 
@@ -33,14 +82,14 @@ body {
 }
 
 .border {
-    border: 2px solid #717D7E; 
+    border: 2px solid #717D7E;
 }
 
 .login_box {
     position: absolute;
     text-align: center;
     vertical-align: central;
-    width: 100%;     
+    width: 100%;
 }
 
 @keyframes fade {
@@ -48,7 +97,7 @@ body {
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
- 
+
 @-webkit-keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }

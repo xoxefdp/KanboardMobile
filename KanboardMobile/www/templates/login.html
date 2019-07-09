@@ -2,12 +2,10 @@
     <img src="images/Kanboard.png" width="157" height="113" style="overflow:hidden; display: block;margin: 65px auto;" align="middle" />
     <div id="page_login" class="login_box">
         <form>
-            <div id="frm_login"><span class="maxwidth input-group"><span class="input-group-addon">https://</span><input id="server" placeholder="Server" type="text" class="maxwidth form-control" ng-model="server" /></span></div>
+            <div id="frm_login"><div class="maxwidth box-container"><div class="ssl-input"><select class="form-control" ng-options="item as item.label for item in protocols" ng-model="protocol"></select></div><div class="domain-input"><input id="server" class="form-control" placeholder="Server" type="text" ng-model="server" /></div></div></div>
             <div id="frm_login"><span class="maxwidth input-group"><input id="username" placeholder="Username" class="maxwidth form-control" ng-model="username" /></span></div>
             <div id="frm_login"><span class="maxwidth input-group"><input id="vPassword" placeholder="Password" class="maxwidth form-control" type="password" ng-model="password" /></span></div>
-            <input type="checkbox" name="remember_me" ng-model="remember_me" id="remember_me" class="custom check" />
-            <label for="remember_me" ng-click="remember_me_clicked()" class="check-label" id="lbl_rem_me">Remember Me</label>
-            <br />
+            <div id="frm_login"><span class="maxwidth input-group"><div class="checkbox text-left"><label for="remember_me" ng-click="remember_me_clicked()" class="checkbox check-label" id="lbl_rem_me"><input type="checkbox" name="remember_me" ng-model="remember_me" id="remember_me" class="custom check"/><span class="ml10">Remember me</span></label></div></span></div>
             <div id="frm_login"><span class="maxwidth input-group"><button type="button" class="maxwidth btn btn-primary" ng-click="login()">Login</button></span></div>
         </form>
     </div>

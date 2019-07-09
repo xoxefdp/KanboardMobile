@@ -9,15 +9,21 @@
           'kanboard_app');
 
       $scope.init = function () {
+          $scope.protocols = [
+            { id: 0, label: "http://" },
+            { id: 1, label: "https://" }
+          ];
+
           $scope.username = "";
           $scope.password = "";
+          $scope.protocol = $scope.protocols[1];
           $scope.server = "";
           $scope.remember_me = false;
           recallCredentials();
       }
 
       $scope.login = function () {
-          AuthenticationService.authenticate($scope.username, $scope.password, 'https://' + $scope.server).then(function (response) {
+          AuthenticationService.authenticate($scope.username, $scope.password, $scope.protocol.label + $scope.server).then(function (response) {
               if ($scope.remember_me)
                 storeCredentials();
               $location.path('/mainscreen');
